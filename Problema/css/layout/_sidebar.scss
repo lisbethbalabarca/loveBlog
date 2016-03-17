@@ -1,0 +1,21 @@
+//SideBar de Contact US
+
+.single_sidebar_area{
+	width: 21%;
+	font-family: $heveltica;
+	.single_sidebar{
+		margin-bottom: 5%;
+		h2{
+			@include h2;
+		}
+		.category_list{
+			list-style: none;
+			margin:0;
+			padding: 0;
+			a{
+				text-decoration: none;
+				color: inherit;
+			}
+		}
+	}
+}

@@ -22,34 +22,35 @@ body{
 	background-color: $pink;
 }
 .main_content_area{
-	margin-top: -50px;
+	margin: -50px auto;
+	width: 100%;
 	.structure{
-		width: 940px;
-		margin: 0 auto;
+		width: 92%;
 	}
 	.content_area {
     	background-color:$white;
     	border-left: 10px solid $white;
     	border-right: 10px solid $white;
+    	margin:0 auto;
     	.ei-slider{
     		position: relative;
     		width: 100%;
-    		max-width: 1920px;
-    		height: 400px;
     		margin: 0 auto;
+    		img{
+    			width: 100%;
+    			padding-bottom: 1%;
+    		}
     	}
 	}
 }
 .service_area{
-	margin-top: 25px;
+	margin-top: 2%;
 	@extend %fix;
 	.single_service_container{
-		@extend %fix;
-		margin-left: -20px;
+		width: 100%;
 	}
 	.single_service{
-		margin-left: 20px;
-		width: 300px;
+		width: 33.33333%;
 		h2{
 			color: $orange-dark;
     		font-size: 16px;
@@ -98,14 +99,12 @@ body{
 		@include h2;
 	}
 	.single_blogpost_container{
-		margin-left: -18px;
 		.single_blog_post{
-			width: 220px;
-			margin-left: 18px;
-				img{
-    				max-width: 98%;
-    				height: auto;
-    			}
+			width: 22%;
+    		margin: 1% 1% 1% 2%;
+			img{
+    			width: 98%;
+    		}
 			.blog_post_meta{
 				@include gallery;
 			}
@@ -118,13 +117,11 @@ body{
 		@include h2;
 	}
 	.single_work_container{
-		margin-left: -18px;
 		.single_work{
-			width: 220px;
-			margin-left: 18px;
+			width: 22%;
+    		margin: 1% 1% 1% 2%;
 			img{
-				max-width: 98%;
-				height: auto;
+				width: 98%;
 			}
 		.blog_post_meta{
 			@include gallery;

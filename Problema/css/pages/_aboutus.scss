@@ -1,0 +1,34 @@
+.single_header_title{
+	background-color: $orange-dark;
+	min-height: 50px;
+	margin-bottom: 3%;
+	h1{
+		color: $white;
+		font-family: $bebas;
+		font-size: 24px;
+		line-height: 210%;
+		padding-left: 2%;
+	}
+}
+.single_main_content{
+	width:77%;
+	position: relative;
+	img{
+    	border: 1px solid $gray;
+    	float: left;
+    	margin-bottom: 1%;
+    	margin-right: 2%;
+    	padding: 0.2%;
+	}
+	p{
+		font-family: $heveltica;
+		font-size: 14px;
+	}
+	.post_quote{
+		padding: 5%;
+		p{
+			border-left: 10px solid $orange-dark;
+    		padding-left: 5%;
+		}
+	}
+}
