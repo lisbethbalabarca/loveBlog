@@ -1,0 +1,134 @@
+*{
+	margin: 0;
+    padding: 0;
+	.floatleft{
+		@extend %left;
+	}
+	.floatright{
+		@extend %right;
+	}
+	.fix{
+		overflow: hidden;
+	}
+}
+body{
+    font-family:$open-sans;
+    font-size: 14px;
+    line-height: 20px;
+    color: #414141;
+}
+.header_bottom_area{
+	min-height: 50px;
+	background-color: $pink;
+}
+.main_content_area{
+	margin-top: -50px;
+	.structure{
+		width: 940px;
+		margin: 0 auto;
+	}
+	.content_area {
+    	background-color:$white;
+    	border-left: 10px solid $white;
+    	border-right: 10px solid $white;
+    	.ei-slider{
+    		position: relative;
+    		width: 100%;
+    		max-width: 1920px;
+    		height: 400px;
+    		margin: 0 auto;
+    	}
+	}
+}
+.service_area{
+	margin-top: 25px;
+	@extend %fix;
+	.single_service_container{
+		@extend %fix;
+		margin-left: -20px;
+	}
+	.single_service{
+		margin-left: 20px;
+		width: 300px;
+		h2{
+			color: $orange-dark;
+    		font-size: 16px;
+    		font-family: $bebas;
+    		padding: 3%;
+		}
+		p{
+			color: $black-light;
+			font-family: $heveltica;
+			margin-bottom: 20px;	
+		}
+		a{
+			background-color:$orange-dark;
+   	 		color: $white;
+    		display: block;
+    		font-family: $bebas;
+    		font-size: 12px;
+    		margin-top: 20px;
+    		padding: 5px 12px;
+    		width: 30px;
+    		text-decoration: none;
+		}
+	}
+	.portfolio{
+		h2{
+			background: url("../images/portfolio.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    		padding-left: 68px;
+		}
+	}
+	.offer{
+		h2{
+			background: url("../images/offer.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+   			 padding-left: 70px;
+		}
+	}
+	.follow{
+		h2{
+		    background: url("../images/follow.png") no-repeat scroll left center rgba(0, 0, 0, 0);
+    		padding-left: 60px;
+    	}
+	}
+}
+.from_blog{
+	margin-top: 5%;
+	h2{
+		@include h2;
+	}
+	.single_blogpost_container{
+		margin-left: -18px;
+		.single_blog_post{
+			width: 220px;
+			margin-left: 18px;
+				img{
+    				max-width: 98%;
+    				height: auto;
+    			}
+			.blog_post_meta{
+				@include gallery;
+			}
+		}
+	}
+}
+.from_works{
+	margin-top: 30px;
+	h2{
+		@include h2;
+	}
+	.single_work_container{
+		margin-left: -18px;
+		.single_work{
+			width: 220px;
+			margin-left: 18px;
+			img{
+				max-width: 98%;
+				height: auto;
+			}
+		.blog_post_meta{
+			@include gallery;
+			}
+		}
+	}
+}

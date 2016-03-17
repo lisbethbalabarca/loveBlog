@@ -1,0 +1,30 @@
+@mixin h2{
+	background: url("../images/heading-bg.png") repeat-x scroll 0 0 rgba(0, 0, 0, 0);
+   	color: $orange-dark;
+    font-family: $bebas;
+    font-size: 16px;
+    margin-left: 120px;
+    margin-bottom: 30px;
+    span{
+		margin-left: -120px;
+	}
+}
+@mixin gallery{
+	border-bottom: 1px solid $gray-dark;
+   	border-left: 1px solid $gray-dark;
+   	border-right: 1px solid $gray-dark;
+   	padding-top: 15px;
+   	padding-left: 25px;
+   	margin-right: 5px;
+   	h3{
+    	color: $gray-dark;
+    	font-size: 16px;
+    	margin-bottom: 2px;
+    	font-family: $bebas;
+   	}
+   	h4{
+    	color: $orange-dark;
+    	font-size: 11px;
+    	font-family: $bebas;
+   	}
+}

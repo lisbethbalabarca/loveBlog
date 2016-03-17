@@ -1,0 +1,30 @@
+//fonts 
+$open-sans:'Open Sans Condensed', sans-serif;
+$play:'Playfair Display', serif;
+$bebas:'Bebas';
+$heveltica:'Helvetica';
+
+
+//colores
+$orange-dark: #E7633D;
+$orange: #E8663C;
+$orange-light: #E76236;
+$pink-dark:#EEAD9B;
+$pink:#F1AE9D;
+$pink-light: #EE997C;
+$gray-dark: #B8B8B8;
+$gray:#AEAEAE;
+$black:#000;
+$black-light:#4A4A4A;
+$white: #fff;
+
+//placeholder
+%left{
+	float: left;
+}
+%right{
+	float: right;
+}
+%fix{
+	overflow: hidden;
+}
