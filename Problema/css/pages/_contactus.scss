@@ -1,0 +1,37 @@
+.address{
+	width: 28%;
+	p{
+		margin-bottom: 5%;
+	}
+	span{
+		color:$orange-dark;
+		font-family: $bebas;
+	}
+}
+.cf{
+	width: 70%;
+	padding: 1%;
+	input{
+		border: 1px solid $orange-dark;
+    	height: 30px;
+    	width: 60%;
+    	outline: none;
+    	margin-bottom: 2%;
+		&::-webkit-input-placeholder {
+  			color: $orange-dark;
+  			padding-left: 2%;
+  			text-transform: uppercase;
+  			font-weight: bold;
+		}
+	}
+	textarea{
+		width: 100%;
+		border: 1px solid $orange-dark;
+		&::-webkit-input-placeholder {
+  			color: $orange-dark;
+  			padding-left: 2%;
+  			text-transform: uppercase;
+  			font-weight: bold;
+		}
+	}
+}

@@ -143,6 +143,37 @@
     width: 70%;
     float: left; }
 
+.address {
+  width: 28%; }
+  .address p {
+    margin-bottom: 5%; }
+  .address span {
+    color: #E7633D;
+    font-family: "Bebas"; }
+
+.cf {
+  width: 70%;
+  padding: 1%; }
+  .cf input {
+    border: 1px solid #E7633D;
+    height: 30px;
+    width: 60%;
+    outline: none;
+    margin-bottom: 2%; }
+    .cf input::-webkit-input-placeholder {
+      color: #E7633D;
+      padding-left: 2%;
+      text-transform: uppercase;
+      font-weight: bold; }
+  .cf textarea {
+    width: 100%;
+    border: 1px solid #E7633D; }
+    .cf textarea::-webkit-input-placeholder {
+      color: #E7633D;
+      padding-left: 2%;
+      text-transform: uppercase;
+      font-weight: bold; }
+
 * {
   margin: 0;
   padding: 0; }
