@@ -11,9 +11,10 @@
 .cf{
 	width: 70%;
 	padding: 1%;
+	margin-bottom: 2%;
 	input{
 		border: 1px solid $orange-dark;
-    	height: 30px;
+    	height: 35px;
     	width: 60%;
     	outline: none;
     	margin-bottom: 2%;
@@ -22,16 +23,36 @@
   			padding-left: 2%;
   			text-transform: uppercase;
   			font-weight: bold;
+  			font-family: $bebas;
+  			padding-top: 1%;
 		}
 	}
 	textarea{
 		width: 100%;
 		border: 1px solid $orange-dark;
+		margin-bottom: 5%;
 		&::-webkit-input-placeholder {
   			color: $orange-dark;
   			padding-left: 2%;
   			text-transform: uppercase;
   			font-weight: bold;
+  			font-family: $bebas;
+  			padding-top:1%;
+		}
+	}
+	a{
+		padding: 2% 46% 2% 46%;
+		background-color: $orange-dark;
+		margin-top: 2%;
+		color: $white;
+		text-decoration: none;
+		font-weight: bold;
+		font-size: 20px;
+		&:hover{
+			background-color: transparent;
+			border: solid 3px $orange-dark;
+			color: $orange-dark;
+			font-weight: bold; 
 		}
 	}
 }

@@ -153,10 +153,11 @@
 
 .cf {
   width: 70%;
-  padding: 1%; }
+  padding: 1%;
+  margin-bottom: 2%; }
   .cf input {
     border: 1px solid #E7633D;
-    height: 30px;
+    height: 35px;
     width: 60%;
     outline: none;
     margin-bottom: 2%; }
@@ -164,14 +165,32 @@
       color: #E7633D;
       padding-left: 2%;
       text-transform: uppercase;
-      font-weight: bold; }
+      font-weight: bold;
+      font-family: "Bebas";
+      padding-top: 1%; }
   .cf textarea {
     width: 100%;
-    border: 1px solid #E7633D; }
+    border: 1px solid #E7633D;
+    margin-bottom: 5%; }
     .cf textarea::-webkit-input-placeholder {
       color: #E7633D;
       padding-left: 2%;
       text-transform: uppercase;
+      font-weight: bold;
+      font-family: "Bebas";
+      padding-top: 1%; }
+  .cf a {
+    padding: 2% 46% 2% 46%;
+    background-color: #E7633D;
+    margin-top: 2%;
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px; }
+    .cf a:hover {
+      background-color: transparent;
+      border: solid 3px #E7633D;
+      color: #E7633D;
       font-weight: bold; }
 
 * {
